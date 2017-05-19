@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
  
+ <!-- ENCABEZADO //-->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no">
@@ -9,14 +10,22 @@
     <title>Hoja de Vida</title>
             </head>
   
+   <!-- CUERPO //-->
   <body>
-    <img src="/PROYECTOS/Html/images/index_logo.svg">
+   <svg>
+       <image xlink:href="images/index_logo.svg" width="200px"  height="150px"> </image>
+        </svg>
+        
+         <header>
           <br/>
+                <navbar>
               <a href="index.html">INICIO</a>
               <a href="educacion.html">EDUCACION</a>
               <a href="experiencia.html">EXPERIENCIA</a>
-        <br/>
-        <br/>
+                      </navbar>
+            </header>
+        
+     <section>
  <h2>Educación</h2>
         
      <table border="2px"> 
@@ -50,8 +59,11 @@
             <br/>
             
             
+           
+            
+<article>            
 <form action="">
-  <h2>Estudios</h2>
+ <legend><h2>Estudios</h2></legend> 
          <p>
 		<label for="año">Año: </label>
 <select name="año">
@@ -64,13 +76,13 @@
         <p>
     <label for="Institucion">Nombre de la Institución</label>
 		<br>
-		<input type="text" name="Institucion" placeholder="Ejemplo: UVM" required>
+		<input type="text" name="Institucion" placeholder="Ejemplo: UVM" size="50px"required>
         </p>
         
         <p>
     <label for="Lugar">Lugar</label>
 		<br>
-		<input type="text" name="Lugar" placeholder="Ejemplo: Av. Alce Blanco #23" required>
+		<input type="text" name="Lugar" placeholder="Ejemplo: Av. Alce Blanco #23" size="50px"required>
         </p>
     
        <p>
@@ -84,13 +96,21 @@
      <br/>
      <input type="submit" value="Enviar">
      
+    </article>
      <br/>
      <br/>
      
-   <footer>Email :  soporte.tecnico@smcmex.com.mx </footer>
-   <footer>Telefono :  5518909023 </footer>
-   <footer>www.facebook/smc</footer>
-   
-        </form>
-           </body>
-                </html>
+     </section>
+   <footer>
+        <p>Email:  soporte.tecnico@smcmex.com.mx</p>
+          <p> Telefono:  5518909023</p>
+             <p>Facebook: www.facebook/smc</p> 
+                      </footer>
+    <br/>
+     <br/>
+    
+    <a href="./index.html">VOLVER</a>
+    
+   </body>
+
+</html>
